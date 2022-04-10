@@ -10,6 +10,7 @@ function App() {
       {id: 3, title: 'JavaScript 3', body: 'Description'}
   ])
     
+  
   const createPost = (newPost) => {
     setPosts([...posts, newPost])
   }
