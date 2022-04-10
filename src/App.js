@@ -14,7 +14,7 @@ function App() {
     setPosts([...posts, newPost])
   }
 
-  //Получаем post из дочернего компонента
+  //Получаем post из дочернего компонента Тесто
 const removePost = (post) => {
   setPosts(posts.filter(p => p.id != post.id))
 }
